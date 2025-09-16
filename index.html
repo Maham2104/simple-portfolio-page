@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maham | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Portfolio of Maham — aspiring full-stack developer. HTML/CSS projects, responsive layouts, and contact info." />
+</head>
+<body>
+  <!-- ================= Navbar ================= -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">Maham</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= Hero ================= -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I’m <span>Maham</span>.</h1>
+        <p class="lead">
+          Aspiring <strong>Full-Stack Developer</strong> focused on clean, responsive UI with HTML & CSS.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="stat">2+ HTML/CSS Projects</p>
+        <p class="stat">Mobile-first Layouts</p>
+        <p class="stat">Semantic, Accessible Markup</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= About ================= -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I’m a CS student learning front-end fundamentals. I build pixel-perfect, mobile-friendly pages and keep my code simple and semantic.
+          Growing into JavaScript next.
+        </p>
+        <ul class="highlights">
+          <li>Responsive design (Flexbox, Grid)</li>
+          <li>Reusable utility classes</li>
+          <li>Clean typography & spacing</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <h3>Quick Info</h3>
+        <dl>
+          <dt>Location</dt><dd>Pakistan (remote friendly)</dd>
+          <dt>Focus</dt><dd>HTML, CSS → JS</dd>
+          <dt>Contact</dt><dd><a href="#contact">See below</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Skills ================= -->
+  <section id="skills" class="section light">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Flexbox</span>
+        <span class="tag">CSS Grid</span>
+        <span class="tag">Responsive Design</span>
+        <span class="tag">Accessibility</span>
+        <span class="tag">Git & GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Projects ================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="cards">
+        <!-- Project 1: Netflix Clone (HTML/CSS) -->
+        <article class="card">
+          <div class="card-body">
+            <h3>Netflix Clone</h3>
+            <p>Static Netflix homepage replica with responsive rows, hero banner, and nav built using HTML & CSS only.</p>
+            <p class="meta">Stack: HTML, CSS (Flexbox, Grid)</p>
+          </div>
+          <div class="card-actions">
+            <a class="btn sm" href="https://your-vercel-or-githubpages-link" target="_blank" rel="noopener">Live Demo</a>
+            <a class="btn ghost sm" href="https://github.com/yourusername/netflix-clone" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 2: Survey Form -->
+        <article class="card">
+          <div class="card-body">
+            <h3>Customer Survey Form</h3>
+            <p>Accessible form with labels, inputs, radios, checkboxes, and responsive layout. Focus styles and clear spacing.</p>
+            <p class="meta">Stack: HTML, CSS</p>
+          </div>
+          <div class="card-actions">
+            <a class="btn sm" href="https://your-live-form-link" target="_blank" rel="noopener">Live Demo</a>
+            <a class="btn ghost sm" href="https://github.com/yourusername/survey-form" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <!-- Project 3: Portfolio (this site) -->
+        <article class="card">
+          <div class="card-body">
+            <h3>Personal Portfolio</h3>
+            <p>This site — built mobile-first with a utility-style CSS approach, semantic HTML, and clean typography.</p>
+            <p class="meta">Stack: HTML, CSS</p>
+          </div>
+          <div class="card-actions">
+            <a class="btn sm" href="#" target="_blank" rel="noopener">Live Demo</a>
+            <a class="btn ghost sm" href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Contact ================= -->
+  <section id="contact" class="section light">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="contact-text">Open to internships and junior roles. Let’s connect.</p>
+      <div class="contact-grid">
+        <div class="contact-item"><strong>Email:</strong> yourmail@example.com</div>
+        <div class="contact-item"><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></div>
+        <div class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year">2025</span> Maham. All rights reserved.</p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
