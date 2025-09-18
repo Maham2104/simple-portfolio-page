@@ -38,15 +38,5 @@ Email: yourmail@example.com
 LinkedIn: linkedin.com/in/yourprofile
 GitHub: github.com/yourusername
 
-License
+License:
 MIT License
-
-
-
-
-
-
-
-
-
-Ask ChatGPT
